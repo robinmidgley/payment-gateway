@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col text-center py-48 px-3 gap-y-6">
+    <div className="flex flex-col text-center pt-24 pb-16 px-3 gap-y-6">
       <div>
         <span className="border rounded-full py-1 px-3 text-sm bg-gray-400/5">
           New regions added
         </span>
       </div>
-      <div className="flex flex-col gap-y-3 text-6xl font-semibold">
+      <div className="flex flex-col gap-y-3 md:text-6xl text-5xl font-semibold">
         <div>Easy, Fast and</div>
         <div>Secure Payments</div>
       </div>

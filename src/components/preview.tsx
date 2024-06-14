@@ -2,7 +2,7 @@ export default function Preview() {
   return (
     <video
       width="1500"
-      className="border rounded-md mb-32"
+      className="border rounded-md mb-12"
       height="1500"
       autoPlay
       muted

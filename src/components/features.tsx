@@ -35,7 +35,7 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
   title,
   description,
 }) => (
-  <div className="flex mt-12 items-center">
+  <div className="flex flex-col md:flex-row items-center mt-12">
     <div>
       <Image
         src={imageSrc}
@@ -46,7 +46,7 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
         className="border rounded-lg"
       />
     </div>
-    <div className="ml-12">
+    <div className="md:ml-12 mt-4 md:mt-0 text-center md:text-left">
       <div className="text-3xl font-semibold mb-2">{title}</div>
       <div className="text-black/60">{description}</div>
     </div>
@@ -56,7 +56,7 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
 export default function Features() {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-x-4">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-y-4 gap-x-4">
         <FeatureCard
           icon={<ShieldCheckIcon className="w-10 h-10" />}
           title="Safe and Secure"

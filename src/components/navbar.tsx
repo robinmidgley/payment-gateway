@@ -28,13 +28,13 @@ export default function Navbar() {
       </div>
       <div className="flex-1 hidden md:flex justify-end items-center gap-x-4 font-medium">
         <Link
-          href="login"
+          href="/"
           className="border border-black/15 px-5 py-2 rounded-md ease-in-out duration-200 hover:bg-black/5"
         >
           Log In
         </Link>
         <Link
-          href="register"
+          href="/"
           className="border border-blue-600 bg-gradient-to-b from-blue-600 to-blue-600/90 px-5 py-2 text-white rounded-md ease-in-out duration-200 hover:bg-blue-600"
         >
           Sign Up

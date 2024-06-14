@@ -13,7 +13,7 @@ const PricingPlan: React.FC<PricingPlanProps> = ({
   items,
   price,
 }) => (
-  <div className="border p-5 rounded-lg">
+  <div className="border p-6 rounded-lg">
     <div className="font-semibold text-4xl">{title}</div>
     <div className="border-b py-3 text-black/60">{description}</div>
     <div className="flex flex-col mt-3 gap-y-2">
@@ -24,11 +24,11 @@ const PricingPlan: React.FC<PricingPlanProps> = ({
         </div>
       ))}
     </div>
-    <div className="flex">
-      <div className="text-xl">{price}</div>
+    <div className="flex my-8">
+      <div className="text-2xl">{price}</div>
       <div className="text-sm">/mo</div>
     </div>
-    <button className="bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600 ease-in-out duration-200">
+    <button className="bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600 ease-in-out duration-200 text-xl font-medium">
       Get it now
     </button>
   </div>
@@ -40,10 +40,10 @@ export default function Pricing() {
       <div className="flex flex-col text-center gap-y-6 mt-24">
         <span className="text-5xl font-semibold">Pricing</span>
         <div className="text-black/60">
-          A package fit for everyone, from individuals to companies.
+          A package fit for everyone, from individuals to large companies.
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 mt-8">
+      <div className="grid gap-y-4 grid-cols-1 md:grid-cols-3 gap-x-4 mt-8">
         <PricingPlan
           title="Starter"
           description="Great for individuals with small scale projects"
