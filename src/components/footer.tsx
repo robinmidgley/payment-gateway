@@ -54,15 +54,6 @@ export default function Footer() {
       </div>
       <div className="flex justify-between my-4">
         <div>&#169; All rights reserved</div>
-        <div>
-          <a
-            href="https://github.com/your-repo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <CodeBracketIcon className="w-6 h-6" />
-          </a>
-        </div>
       </div>
     </div>
   );
