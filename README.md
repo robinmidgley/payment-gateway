@@ -1,5 +1,9 @@
 <h1 align="center">
-  Payment Gateway Landingpage
+  <a href="https://payment-gateway-topaz.vercel.app/" target="_blank">
+    <img src="https://payment-gateway-topaz.vercel.app/logo.png" alt="WorldPay Logo" width="84">
+  </a>
+  <br>
+  WorldPay
 </h1>
 
 <p align="center">A minimal landingpage for a fictional payment gateway</p>
