@@ -55,11 +55,15 @@ export default function Navbar() {
       </div>
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg rounded-lg p-4 flex flex-col items-center gap-y-4 z-50 md:hidden">
-          <a className="ease-in-out duration-200 hover:text-black">Features</a>
-          <a className="ease-in-out duration-200 hover:text-black">
+          <a href="#" className="ease-in-out duration-200">
+            Features
+          </a>
+          <a href="#" className="ease-in-out duration-200">
             Developers
           </a>
-          <a className="ease-in-out duration-200 hover:text-black">Pricing</a>
+          <a href="#" className="ease-in-out duration-200">
+            Pricing
+          </a>
           <Link
             href="login"
             className="border border-black/15 px-5 py-2 rounded-md ease-in-out duration-200 hover:bg-black/5 w-full text-center"
