@@ -18,12 +18,16 @@ export default function Navbar() {
         <span className="font-semibold text-xl">WorldPay</span>
       </div>
       <div className="flex-1 hidden md:flex justify-center">
-        <div className="flex gap-x-8 text-black/70">
-          <a className="ease-in-out duration-200 hover:text-black">Features</a>
-          <a className="ease-in-out duration-200 hover:text-black">
+        <div className="flex gap-x-8 text-black/65">
+          <a href="#" className="ease-in-out duration-200 hover:text-black">
+            Features
+          </a>
+          <a href="#" className="ease-in-out duration-200 hover:text-black">
             Developers
           </a>
-          <a className="ease-in-out duration-200 hover:text-black">Pricing</a>
+          <a href="#" className="ease-in-out duration-200 hover:text-black">
+            Pricing
+          </a>
         </div>
       </div>
       <div className="flex-1 hidden md:flex justify-end items-center gap-x-4 font-medium">
